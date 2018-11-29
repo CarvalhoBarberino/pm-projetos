@@ -1,0 +1,56 @@
+body {
+    background-color: #745cc1;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+}
+img {
+    margin-top: 65px;
+}
+input {
+    display: block;//esta linha define que os elementos input serão adicionados em forma de blocos e não em forma de linha;
+    width: 100%;
+    margin-bottom: 50px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+}
+button {
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 40px;
+    height: 50px;
+    text-transform: uppercase;
+    box-shadow: 0px 2px 3px 0px #000;
+    border: none;
+    color: #39393a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+form {
+    padding: 60px 60px 5px 60px;
+}
+
+input::-webkit-input-placeholder {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+/*
+    ::-webkit-input-placeholder
+        este comando é uma gambiarra que não funciona em todos os navegadores.
+        serve para mudar a cor da fonte de um placeholder
+
+    -webkit-font-smoothing: antialiased;
+        este comando tambem eh gambiarra e serve para afinar a font, diminuir o peso da font. eh utilizado para fazer fontes ficar mais parecida com a font original especificada pelo cliente.
+*/
